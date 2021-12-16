@@ -1012,6 +1012,7 @@ static int smbb_charger_remove(struct platform_device *pdev)
 }
 
 static const struct of_device_id smbb_charger_id_table[] = {
+	{ .compatible = "qcom,pm8110-charger" },
 	{ .compatible = "qcom,pm8226-charger" },
 	{ .compatible = "qcom,pm8941-charger" },
 	{ }
