@@ -12,6 +12,7 @@ maintainers:
 properties:
   compatible:
     enum:
+      - qcom,pm8110-charger
       - qcom,pm8226-charger
       - qcom,pm8941-charger
 
