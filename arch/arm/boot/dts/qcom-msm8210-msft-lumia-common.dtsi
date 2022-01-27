@@ -87,18 +87,18 @@
 		vdd_l10_l11_l13-supply = <&pm8110_s4>;
 
 		s1 {
-			regulator-min-microvolt = <500000>;
-			regulator-max-microvolt = <1275000>;
+			regulator-min-microvolt = <1200000>;
+			regulator-max-microvolt = <1200000>;
 		};
 
 		s3 {
 			regulator-min-microvolt = <1350000>;
-			regulator-max-microvolt = <1500000>;
+			regulator-max-microvolt = <1350000>;
 		};
 
 		s4 {
-			regulator-min-microvolt = <1500000>;
-			regulator-max-microvolt = <1800000>;
+			regulator-min-microvolt = <1800000>;
+			regulator-max-microvolt = <2150000>;
 		};
 
 		l1 {
@@ -125,7 +125,7 @@
 		};
 
 		l5 {
-			regulator-min-microvolt = <600000>;
+			regulator-min-microvolt = <1300000>;
 			regulator-max-microvolt = <1300000>;
 		};
 
@@ -135,8 +135,8 @@
 		};
 
 		l7 {
-			regulator-min-microvolt = <2050000>;
-			regulator-max-microvolt = <2050000>;
+			regulator-min-microvolt = <1025000>;
+			regulator-max-microvolt = <1025000>;
 		};
 
 		l8 {
@@ -167,7 +167,7 @@
 
 		l13 {
 			regulator-min-microvolt = <1800000>;
-			regulator-max-microvolt = <1800000>;
+			regulator-max-microvolt = <2950000>;
 			regulator-boot-on;
 		};
 
@@ -178,7 +178,7 @@
 
 		l15 {
 			regulator-min-microvolt = <1800000>;
-			regulator-max-microvolt = <3300000>;
+			regulator-max-microvolt = <1800000>;
 		};
 
 		l16 {
@@ -207,13 +207,13 @@
 		};
 
 		l21 {
-			regulator-min-microvolt = <1800000>;
+			regulator-min-microvolt = <1850000>;
 			regulator-max-microvolt = <2950000>;
 		};
 
 		l22 {
 			regulator-min-microvolt = <1800000>;
-			regulator-max-microvolt = <3300000>;
+			regulator-max-microvolt = <1800000>;
 		};
 	};
 };
